@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0q5)ht6d*9@2qhl=vjg_z+rx^z(@jkcau^5lp2n16xwt2=3l_u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'linkyblog.herokuapp.com']
 

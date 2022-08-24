@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head_title %} 
+bolne de 
+{% endblock %}
+{% block content %}
+<p> This is more about stuff</p>
+
+{% for a in list %}
+<li>{{a}}</li>  
+{%endfor%}
+{% endblock %}
